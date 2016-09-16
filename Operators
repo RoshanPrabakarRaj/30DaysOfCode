@@ -1,0 +1,21 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    double mealCost;
+    double tip;
+    double tax;
+    double total;
+    cin>>mealCost;
+    cin>>tip;
+    cin>>tax;
+    total=(mealCost+(mealCost*(tip/100))+(mealCost*(tax/100)));
+    cout<<"The total meal cost is "<<round(total)<<" dollars.";
+    return 0;
+}
