@@ -1,0 +1,11 @@
+int a;
+double b;
+std::string c;
+cin>>a;
+cin>>b;
+cin.ignore();
+std::getline(std::cin,c);
+cout<<a+i<<endl;
+cout.precision(1);
+cout<<fixed<<b+d<<endl;
+std::cout<<s <<c;
